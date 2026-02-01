@@ -47,8 +47,22 @@ Visit `http://127.0.0.1:8000` to preview your changes.
 
 ### Step 4: Create a Feature Branch
 
+**Never work directly on `main`**. Always create a branch.
+
+**First, verify the correct issue number:**
+
 ```bash
-git checkout -b type/description
+# List open issues to find the right issue number
+gh issue list --repo malcolmhoward/github-pages
+```
+
+**Then create your branch with that issue number:**
+
+```bash
+git checkout -b feat/github-pages/<issue#>-description
+
+# Example: Working on issue #2
+git checkout -b feat/github-pages/2-foundation-files
 ```
 
 ---
