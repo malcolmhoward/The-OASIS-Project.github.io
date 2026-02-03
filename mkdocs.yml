@@ -34,13 +34,15 @@ nav:
   - Home: index.md
   - Overview: overview.md
   - Videos: videos.md
-  - M.I.R.A.G.E.: mirage.md
-  - D.A.W.N.: dawn.md
-  - A.U.R.A.: aura.md
-  - S.P.A.R.K.: spark.md
-  - Communications: comms.md
-  - Local LLMs: llm.md
-  - B.E.A.C.O.N. Parts Catalog: beacon.md
+  - Components:
+    - M.I.R.A.G.E.: components/mirage.md
+    - D.A.W.N.: components/dawn.md
+    - D.A.W.N. Local LLM: components/dawn-llm.md
+    - A.U.R.A.: components/aura.md
+    - S.P.A.R.K.: components/spark.md
+    - B.E.A.C.O.N. Parts: components/beacon.md
+  - Architecture:
+    - MQTT Protocols: architecture/mqtt-protocols.md
   - Special Thanks: opensource.md
   - Credits: credits.md
   #- Blog: blog/index.md
