@@ -41,6 +41,7 @@ nav:
     - A.U.R.A.: components/aura.md
     - S.P.A.R.K.: components/spark.md
     - B.E.A.C.O.N. Parts: components/beacon.md
+    - G.E.N.E.S.I.S.: components/genesis.md
   - Architecture:
     - MQTT Protocols: architecture/mqtt-protocols.md
   - Special Thanks: opensource.md
