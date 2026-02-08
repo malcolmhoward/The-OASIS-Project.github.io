@@ -41,7 +41,7 @@ COMPONENT_DOCS = {
         ("docs/parts-catalog.md", "components/beacon.md"),
     ],
     "genesis": [
-        # Add genesis docs when available
+        ("docs/guide.md", "components/genesis.md"),
     ],
 }
 
